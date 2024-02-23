@@ -1,7 +1,7 @@
 import requests
 import re
 import os
-from lib.downloader import Downloader
+from py.lib.downloader import Downloader
 import UnityPy
 from PIL import ImageOps
 

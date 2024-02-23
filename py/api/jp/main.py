@@ -1,13 +1,13 @@
 import requests
 import re
 import os
-from lib.downloader import Downloader
+from py.lib.downloader import Downloader
 from .updater import App
 from PIL import ImageOps
 import UnityPy
 
 
-URL = "https://yostar-serverinfo.bluearchiveyostar.com/r64_4hwwigy8ojry9k25hduz.json"
+URL = "https://yostar-serverinfo.bluearchiveyostar.com/r65_kventkox7kspzcnyzw8b.json"
 
 
 class MediaResource:

@@ -1,4 +1,4 @@
-from api.jp.main import Api as BlueArchiveApiJP
+from py.api.jp.main import Api as BlueArchiveApiJP
 from PIL import Image
 import requests
 import argparse
@@ -153,7 +153,7 @@ def update_server_info_data_url(api: BlueArchiveApiJP):
         export const URL = "https://yostar-serverinfo.bluearchiveyostar.com/r62_18adige2364es3ybluha.json"; // 1.38
         export const AddressablesCatalogUrlRoot = "https://prod-clientpatch.bluearchiveyostar.com/r62_18adige2364es3ybluha_2";
         '''
-    src = os.path.join("app", "jp", "url.tsx")
+    src = os.path.join("app", "api/jp", "url.tsx")
     r = requests.get(url)
     r = r.json()
     AddressablesCatalogUrlRoot = r["ConnectionGroups"][0]["OverrideConnectionGroups"][1]["AddressablesCatalogUrlRoot"]

@@ -1,4 +1,4 @@
-import lib.TableEncryptionService as TableEncryptionService
+import py.lib.TableEncryptionService as TableEncryptionService
 from zipfile import ZipFile
 import requests
 import UnityPy

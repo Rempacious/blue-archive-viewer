@@ -289,6 +289,12 @@
     "ch0233_home": [
         "data/jp/Android/ch0233_home\\CH0233_home.skel"
     ],
+    "ch0239_home": [
+        "data/jp/Android/ch0239_home\\CH0239_home.skel"
+    ],
+    "ch0240_home": [
+        "data/jp/Android/ch0240_home\\CH0240_home.skel"
+    ],
     "ch9996_home": [
         "data/jp/Android/ch9996_home\\CH9996_home.skel"
     ],
@@ -357,6 +363,9 @@
     ],
     "hoshino_swimsuit_home": [
         "data/jp/Android/hoshino_swimsuit_home\\Hoshino_swimsuit_home.skel"
+    ],
+    "ibuki_home": [
+        "data/jp/Android/ibuki_home\\Ibuki_home.skel"
     ],
     "iori_home": [
         "data/jp/Android/iori_home\\Iori_home.skel"

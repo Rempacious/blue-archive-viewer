@@ -1,4 +1,4 @@
-from api.en.main import Api as BlueArchiveApiEN
+from py.api.en.main import Api as BlueArchiveApiEN
 from PIL import Image
 import argparse
 import string
@@ -118,6 +118,6 @@ if __name__ == "__main__":
     api = BlueArchiveApiEN()
     download_spinelobbies(
         api,
-        check=os.path.join("public", "data", "jp", "Android"),
+        check=os.path.join("public", "data", "api/jp", "Android"),
         out=os.path.join("public", "data", "en", "GameData", "Android"),
     )

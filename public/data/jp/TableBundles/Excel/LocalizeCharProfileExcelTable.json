@@ -1,5 +1,4 @@
-{
-  "DataList": [
+[
     {
       "CharacterId": 16004,
       "StatusMessageKr": "HAJIMEMASITE!",
@@ -7201,4 +7200,3 @@
       "CharacterSSRNewJp": "ついにこの日が来たわね。\nまあ、見ていてちょうだい"
     }
   ]
-}

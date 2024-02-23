@@ -1,5 +1,4 @@
-{
-  "DataList": [
+[
     {
       "Id": 10000,
       "ProductionStep": "Release",
@@ -2311,4 +2310,3 @@
       "AudioClipEn": ""
     }
   ]
-}
